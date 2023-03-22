@@ -1,0 +1,13 @@
+{
+    "profiles": {
+      "wasmbo": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "https://localhost:7147;http://localhost:5014",
+        "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/debug?browser={browserInspectUri}"
+      }
+    }
+}
